@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Couchevel</title>
+    <link rel="stylesheet" href="stile.css">
+</head>
+<body class="body-favoritos">
+    <header>    
+    <img class="logo" src="logo.png" alt=""> 
+         <div class="abrir">
+            <a href="perfil.html"><img class="croassant" src="croassant.png" alt=""><I>perfil</I></a>
+      <a href="#login-modal" class="login-icon">
+    <img src="croassant.png" alt="Login"></a>
+    <div id="login-modal">
+    <div class="modal-content">
+        <h2>Cadastro</h2>
+        <form>
+            <input type="text" placeholder="Digite seu usuario" required>
+            <input type="password" placeholder="Digite sua senha" required>
+            <input type="password" placeholder="Digite sua senha novamente" required>
+            <button onclick="window.location.href='cadastro.html'">Cadastrar</button>
+        </form>
+        <a href="#" class="close-btn">Fechar</a>
+    </div>
+</div>
+    </header>
+    <main>
+        <section>
+            <h1 class="foda">Receitas favoritas:</h1>   
+            <div class="favoritos">
+                <a href="rosti.html"> <img src="rosti.jpg" class ="comidas-borda comida-img" alt="fondue"><h3><i>Rösti</i></h3> </a>
+            </div>
+            <br>        
+         <div id="login-modal">
+    <div class="modal-content">
+        <h2>Login</h2>
+        <form>
+            <input type="email" placeholder="Digite seu e-mail" required>
+            <input type="password" placeholder="Digite sua senha" required>
+            <textarea placeholder="Escreva seu comentário" rows="3"></textarea>
+            <button type="submit">Entrar</button>
+        </form>
+        <a href="#" class="close-btn">Fechar</a>
+    </div>
+</div>
+            </section>
+
+    </main>
+    <footer>
+        <form>
+            <button class="voltar" formaction="cadastro.html"> <h1>Voltar</h1>  </button>
+        </form>
+    </footer>
+</body>
+</html>
